@@ -14,6 +14,8 @@ BOT_NAME = 'mm131'
 SPIDER_MODULES = ['mm131.spiders']
 NEWSPIDER_MODULE = 'mm131.spiders'
 
+LOG_LEVEL = 'DEBUG'
+
 DEFAULT_ITEM_CLASS = 'mm131.items.Mm131Item'
 ITEM_PIPELINES = {'mm131.pipelines.Mm131Pipeline': 1}
 FILES_STORE = 'files/'
